@@ -11,7 +11,7 @@ description = "WebAssembly interpreter"
 keywords = ["wasm", "webassembly", "bytecode", "interpreter"]
 
 [dependencies]
-clap = { version = "3.2", features = ["derive"] }
+clap = { version = "4.1", features = ["derive"] }
 wasmi = { path = "../wasmi_v1" }
 wat = "1"
 anyhow = "1"
